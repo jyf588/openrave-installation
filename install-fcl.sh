@@ -24,4 +24,4 @@ cd fcl; git reset --hard 0.5.0
 mkdir build; cd build
 cmake ..
 make -j `nproc`
-sudo make install
+make install

@@ -36,4 +36,4 @@ elif [ ${UBUNTU_VER} = '18.04' ]; then
         -DBoost_NO_SYSTEM_PATHS=TRUE -DBOOST_ROOT=/usr/local/ ..
 fi
 make -j `nproc`
-sudo make install
+make install
