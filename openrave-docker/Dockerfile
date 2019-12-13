@@ -68,6 +68,8 @@ RUN ["/bin/bash", "-c", "source /root/bashrc \
 
 WORKDIR /root
 
+# "source /root/bashrc" when you run the container
+
 
 
 
