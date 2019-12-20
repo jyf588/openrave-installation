@@ -8,11 +8,6 @@
 # docker run --gpus=all -ti --rm -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix openrave-ha:v0 /bin/bash
 # inside contrainer, try running glxgears and firefox
 
-# run openrave examples: (https://scaron.info/teaching/installing-openrave-on-ubuntu-14.04.html)
-# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(openrave-config --python-dir)/openravepy/_openravepy_
-# export PYTHONPATH=$PYTHONPATH:$(openrave-config --python-dir)
-# openrave.py --example hanoi
-
 # FROM nvidia/opengl:1.0-glvnd-runtime-ubuntu16.04
 FROM nvidia/cudagl:10.0-devel-ubuntu16.04
 
