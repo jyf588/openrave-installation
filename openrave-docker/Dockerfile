@@ -1,3 +1,8 @@
+# after builing this image and run container,
+# try running openrave examples: (https://scaron.info/teaching/installing-openrave-on-ubuntu-14.04.html)
+# first: source bashrc
+# then: openrave.py --example hanoi
+
 FROM openrave-ha:v0
 
 WORKDIR /root
