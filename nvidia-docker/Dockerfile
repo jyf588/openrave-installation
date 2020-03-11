@@ -1,6 +1,7 @@
 # references:
 # https://gitlab.com/nvidia/container-images/samples/blob/master/opengl/ubuntu16.04/glxgears/Dockerfile
 # https://github.com/nvidia/nvidia-docker/wiki/Installation-(Native-GPU-Support)
+# INSTALL sudo apt-get install -y nvidia-container-toolkit on your HOST machine first before using this dockerfile!
 
 # running instructions:
 # docker build -t openrave-ha:v0 .
